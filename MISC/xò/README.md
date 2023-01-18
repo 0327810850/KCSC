@@ -11,5 +11,18 @@
 
 Code:
 
+from binascii import unhexlify
 
+with open("1.jpg", mode='rb') as fl:
+    lemur = fl.read()
+    
 
+with open("2.jpg", mode='rb') as ff:
+    flag = ff.read()
+
+d = b''
+for b1, b2 in zip(lemur, flag):
+    d += bytes([b1^b2])
+
+with open("new.jpg", mode='wb') as fn:
+    fn.write(d)

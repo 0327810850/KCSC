@@ -28,6 +28,8 @@ for b1, b2 in zip(lemur, flag):
 with open("new.jpg", mode='wb') as fn:
     fn.write(d)
 ```
-Vứt vào wireshank hay ida để lấy flag.
+Cho vào wireshank hay ida để lấy flag.
+
+
 flag: KCSC{Da_bao_roi_cu_x%r_tung_byte_la_ra_ma_li}
 

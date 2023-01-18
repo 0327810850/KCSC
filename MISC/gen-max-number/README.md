@@ -56,3 +56,6 @@ while(1):
     r.sendline(b)
 
 ```
+
+
+flag: KCSC{You will maximize yourself when participating in KCSC, G00d_j0b}
